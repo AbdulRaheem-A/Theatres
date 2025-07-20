@@ -16,7 +16,118 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "fonts": [
+        {
+          "fontFamily": "ProximaNovaExCn",
+          "fontDefinitions": [
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-regular.otf",
+              "weight": "400"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-regularit.otf",
+              "weight": "400",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-semibold.otf",
+              "weight": "600"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-semiboldit.otf",
+              "weight": "600",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-thin.otf",
+              "weight": "100"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-thinit.otf",
+              "weight": "100",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-light.otf",
+              "weight": "300"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-lightit.otf",
+              "weight": "300",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-medium.otf",
+              "weight": "500"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-mediumit.otf",
+              "weight": "500",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-bold.otf",
+              "weight": "700"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-boldit.otf",
+              "weight": "700",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-extrabold.otf",
+              "weight": "800"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-extraboldit.otf",
+              "weight": "800",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-black.otf",
+              "weight": "900"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-blackit.otf",
+              "weight": "900",
+              "style": "italic"
+            }
+          ]
+        },
+        {
+          "fontFamily": "ProximaNovaCond",
+          "fontDefinitions": [
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-regular.otf",
+              "weight": "400"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-regularit.otf",
+              "weight": "400",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-semibold.otf",
+              "weight": "600"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-semiboldit.otf",
+              "weight": "600",
+              "style": "italic"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-thin.otf",
+              "weight": "100"
+            },
+            {
+              "path": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-thinit.otf",
+              "weight": "100",
+              "style": "italic"
+            }
+          ]
+        }
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -33,7 +144,35 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font",
+      {
+          "fonts": {
+            "ProximaNovaCond-Regular": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-regular.otf",
+            "ProximaNovaCond-RegularItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-regularit.otf",
+            "ProximaNovaCond-Semibold": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-semibold.otf",
+            "ProximaNovaCond-SemiboldItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-semiboldit.otf",
+            "ProximaNovaCond-Thin": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-thin.otf",
+            "ProximaNovaCond-ThinItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovacond-thinit.otf",
+
+            "ProximaNovaExCn-Black": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-black.otf",
+            "ProximaNovaExCn-BlackItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-blackit.otf",
+            "ProximaNovaExCn-Bold": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-bold.otf",
+            "ProximaNovaExCn-BoldItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-boldit.otf",
+            "ProximaNovaExCn-Extrabold": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-extrabold.otf",
+            "ProximaNovaExCn-ExtraboldItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-extraboldit.otf",
+            "ProximaNovaExCn-Light": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-light.otf",
+            "ProximaNovaExCn-LightItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-lightit.otf",
+            "ProximaNovaExCn-Medium": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-medium.otf",
+            "ProximaNovaExCn-MediumItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-mediumit.otf",
+            "ProximaNovaExCn-Regular": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-regular.otf",
+            "ProximaNovaExCn-RegularItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-regularit.otf",
+            "ProximaNovaExCn-Semibold": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-semibold.otf",
+            "ProximaNovaExCn-SemiboldItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-semiboldit.otf",
+            "ProximaNovaExCn-Thin": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-thin.otf",
+            "ProximaNovaExCn-ThinItalic": "./Theatres/Interval/assets/fonts/Proxima-Nova-Demo-Font/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-thinit.otf"
+          }
+        }
     ],
     "experiments": {
       "typedRoutes": true
